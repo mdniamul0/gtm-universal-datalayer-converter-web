@@ -1366,15 +1366,10 @@ ___WEB_PERMISSIONS___
       },
       "param": [
         {
-          "key": "keyPatterns",
+          "key": "allowedKeys",
           "value": {
-            "type": 2,
-            "listItem": [
-              {
-                "type": 1,
-                "string": "*"
-              }
-            ]
+            "type": 1,
+            "string": "any"
           }
         }
       ]
