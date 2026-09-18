@@ -1,5 +1,5 @@
 homepage: "https://mdniamul.com"
 documentation: "https://github.com/mdniamul0/gtm-universal-datalayer-converter-web#readme"
 versions:
-  - sha: a9941ecd51c358ac34161aa0a17f604a674ea657
-    changeNotes: "Initial release."
+  - sha: 124e65ac599cb871ea6058507131c3bc08ef4d7f
+    changeNotes: "Initial release. (Added UTF-8 BOM to template.tpl to match the Gallery validator's expected format.)"
