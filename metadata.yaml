@@ -1,5 +1,5 @@
 homepage: "https://mdniamul.com"
 documentation: "https://github.com/mdniamul0/gtm-universal-datalayer-converter-web#readme"
 versions:
-  - sha: 124e65ac599cb871ea6058507131c3bc08ef4d7f
-    changeNotes: "Initial release. (Added UTF-8 BOM to template.tpl to match the Gallery validator's expected format.)"
+  - sha: 0e38b438d866bcf86496c656b178d3e5a8d9dbac
+    changeNotes: "Initial release. Fixed the read_data_layer permission to use the correct allowedKeys=any schema (the original keyPatterns wildcard was rejected by GTM's template validator), verified by importing and running the template's tests in a live GTM container."
